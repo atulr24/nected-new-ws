@@ -1,0 +1,113 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "live": true,
+ "data": {
+  "createdAt": "2026-07-15T12:22:15.455Z",
+  "updatedAt": "2026-07-15T12:22:42.549Z",
+  "isDeleted": false,
+  "testedAt": "2026-07-15T12:22:35.426Z",
+  "publishedAt": "2026-07-15T12:22:42.539Z",
+  "entityId": "b36fea22-c50f-4c10-b055-0d2ecd433514",
+  "version": "0.10",
+  "name": "pgDB",
+  "commitId": "commit-760826dc-0476-4e9b-ae4f-2e368eec4f57",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2026-07-15 12:22:15",
+   "description": "v1",
+   "timeStamp": "2026-07-15T12:22:42.538Z"
+  },
+  "fields": {
+   "Bday": {
+ "ColumnName": "Bday",
+ "DataType": "dateTime",
+ "Order": 8,
+ "ExecutedValue": "1996-04-15T00:00:00Z"
+},
+   "age": {
+ "ColumnName": "age",
+ "DataType": "numeric",
+ "Order": 1,
+ "ExecutedValue": 35
+},
+   "id": {
+ "ColumnName": "id",
+ "DataType": "numeric",
+ "Order": 2,
+ "ExecutedValue": 1234
+},
+   "isTrue": {
+ "ColumnName": "isTrue",
+ "DataType": "boolean",
+ "Order": 3,
+ "ExecutedValue": true
+},
+   "metadata": {
+ "ColumnName": "metadata",
+ "DataType": "json",
+ "Order": 4,
+ "ExecutedValue": {
+  "name": "Raizada"
+ }
+},
+   "name": {
+ "ColumnName": "name",
+ "DataType": "string",
+ "Order": 5,
+ "ExecutedValue": "Ravi Kumar"
+},
+   "scores": {
+ "ColumnName": "scores",
+ "DataType": "list",
+ "Order": 6,
+ "ExecutedValue": [
+  85,
+  92,
+  78
+ ]
+},
+   "tags": {
+ "ColumnName": "tags",
+ "DataType": "list",
+ "Order": 7,
+ "ExecutedValue": [
+  "cricket",
+  "travel"
+ ]
+}
+  },
+  "description": "",
+  "query": "select  * from dummy_data1;",
+  "params": {
+   
+  },
+  "connectorId": "96c89c9c-892d-4980-b717-04eab21179a1",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-15T12:22:15.460934Z",
+   "updatedAt": "2026-07-15T12:22:42.54532Z",
+   "entityCommitId": "commit-760826dc-0476-4e9b-ae4f-2e368eec4f57",
+   "entityType": "dataSet",
+   "entityId": "b36fea22-c50f-4c10-b055-0d2ecd433514",
+   "entityVersion": "0.10",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "96c89c9c-892d-4980-b717-04eab21179a1",
+   "dependencyVersion": "live"
+  }
+ ]
+}

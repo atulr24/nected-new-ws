@@ -1,0 +1,64 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2026-07-15T12:22:15.455Z",
+  "updatedAt": "2026-07-15T12:22:57.527359Z",
+  "isDeleted": false,
+  "testedAt": "2026-07-15T12:22:52.651Z",
+  "publishedAt": "2026-07-15T12:22:57.517Z",
+  "entityId": "b36fea22-c50f-4c10-b055-0d2ecd433514",
+  "version": "0.20",
+  "name": "pgDB",
+  "commitId": "commit-9f95ceda-6bcc-4763-b8e7-16b0df7b3612",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Forked from 0.10",
+   "description": "v2",
+   "timeStamp": "2026-07-15T12:22:57.515Z"
+  },
+  "fields": {
+   "age": {
+ "ColumnName": "age",
+ "DataType": "numeric",
+ "Order": 1,
+ "ExecutedValue": 10
+},
+   "email": {
+ "ColumnName": "email",
+ "DataType": "string",
+ "Order": 2,
+ "ExecutedValue": "alice@example.com"
+},
+   "id": {
+ "ColumnName": "id",
+ "DataType": "numeric",
+ "Order": 3,
+ "ExecutedValue": 1
+},
+   "name": {
+ "ColumnName": "name",
+ "DataType": "string",
+ "Order": 4,
+ "ExecutedValue": "Alice"
+}
+  },
+  "description": "",
+  "query": "select  * from dummy_users;",
+  "params": {
+   
+  },
+  "connectorId": "96c89c9c-892d-4980-b717-04eab21179a1",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ }
+}

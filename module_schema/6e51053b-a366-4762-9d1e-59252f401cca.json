@@ -1,0 +1,24 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-07-15T12:17:16.357Z",
+  "updatedAt": "2026-07-15T12:17:16.357Z",
+  "isDeleted": false,
+  "entityId": "6e51053b-a366-4762-9d1e-59252f401cca",
+  "name": "NAmes",
+  "moduleId": "422be790-c4f4-4edc-9052-14ff42233708",
+  "dataType": "string",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": "Atul"
+   },
+   {
+    "value": "Raizada"
+   },
+   {
+    "value": "beanBag"
+   }
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-07-15T12:18:16.38Z",
+  "updatedAt": "2026-07-15T12:18:16.38Z",
+  "isDeleted": false,
+  "entityId": "0b142b7a-f97a-44c3-8c7c-9dc4bbf9fd86",
+  "name": "Age",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "numeric",
+  "value": {
+   "data": 29,
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}
