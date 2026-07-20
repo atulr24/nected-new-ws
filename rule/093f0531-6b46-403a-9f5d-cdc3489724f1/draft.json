@@ -3,7 +3,7 @@
  "category": "simpleRule",
  "data": {
   "createdAt": "2026-07-15T07:14:46.57Z",
-  "updatedAt": "2026-07-20T09:33:50.427935Z",
+  "updatedAt": "2026-07-20T13:04:22.120005Z",
   "isDeleted": false,
   "testedAt": "2026-07-20T09:33:50.426Z",
   "publishedAt": "2026-07-17T11:15:14.271Z",
@@ -11,7 +11,7 @@
   "version": "draft",
   "name": "srSanity",
   "commitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
-  "status": "tested",
+  "status": "draft",
   "lastVersion": "0.50",
   "isLive": false,
   "commitInfo": {
@@ -248,21 +248,21 @@
  "dependencies": [
   {
    "isDeleted": false,
-   "createdAt": "2026-07-16T12:00:22.137753Z",
-   "updatedAt": "2026-07-17T11:15:14.274328Z",
+   "createdAt": "2026-07-16T12:00:22.141705Z",
+   "updatedAt": "2026-07-20T13:04:22.130102Z",
    "entityCommitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
    "entityType": "rule",
    "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
    "entityVersion": "draft",
-   "entityNodeId": "ci-ListOFLists",
-   "dependencyType": "module_schema",
-   "dependencyId": "871d752a-5848-4830-9a73-6d634bf9d083",
-   "dependencyVersion": "live"
+   "entityNodeId": "then-actionData_action_2",
+   "dependencyType": "workflow",
+   "dependencyId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
+   "dependencyVersion": "0.20"
   },
   {
    "isDeleted": false,
    "createdAt": "2026-07-16T12:00:22.14057Z",
-   "updatedAt": "2026-07-17T11:15:14.274328Z",
+   "updatedAt": "2026-07-20T13:04:22.129334Z",
    "entityCommitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
    "entityType": "rule",
    "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
@@ -274,16 +274,16 @@
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-16T12:00:22.141705Z",
-   "updatedAt": "2026-07-17T11:15:14.274328Z",
+   "createdAt": "2026-07-16T12:00:22.137753Z",
+   "updatedAt": "2026-07-20T13:04:22.127934Z",
    "entityCommitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
    "entityType": "rule",
    "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
    "entityVersion": "draft",
-   "entityNodeId": "then-actionData_action_2",
-   "dependencyType": "workflow",
-   "dependencyId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "dependencyVersion": "0.20"
+   "entityNodeId": "ci-ListOFLists",
+   "dependencyType": "module_schema",
+   "dependencyId": "871d752a-5848-4830-9a73-6d634bf9d083",
+   "dependencyVersion": "live"
   }
  ]
 }

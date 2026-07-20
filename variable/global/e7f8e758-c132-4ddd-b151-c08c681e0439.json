@@ -1,0 +1,23 @@
+{
+ "entityType": "variable",
+ "data": {
+  "createdAt": "2026-07-20T13:10:33.005Z",
+  "updatedAt": "2026-07-20T13:10:33.005Z",
+  "isDeleted": false,
+  "entityId": "e7f8e758-c132-4ddd-b151-c08c681e0439",
+  "name": "json",
+  "category": "globalVar",
+  "scope": "workspace",
+  "dataType": "json",
+  "value": {
+   "data": {
+    "Lsst": "Raizada",
+    "Name": "Atul"
+   },
+   "isSecret": false,
+   "canReset": false
+  },
+  "isFunction": false,
+  "functionName": ""
+ }
+}
