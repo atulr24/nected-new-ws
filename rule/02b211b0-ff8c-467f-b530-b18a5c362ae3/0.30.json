@@ -1,41 +1,26 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2026-07-15T07:09:00.215Z",
-  "updatedAt": "2026-07-20T07:02:15.555578Z",
+  "updatedAt": "2026-07-17T09:58:20.679Z",
   "isDeleted": false,
-  "testedAt": "2026-07-20T06:47:42.937Z",
+  "testedAt": "2026-07-17T09:58:10.661Z",
   "publishedAt": "2026-07-17T09:58:20.674Z",
   "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-  "version": "draft",
+  "version": "0.30",
   "name": "jsRule",
-  "commitId": "commit-b1052cda-fdbb-49a2-b3c3-bc93c3e5010c",
-  "status": "draft",
-  "lastVersion": "0.30",
-  "isLive": false,
+  "commitId": "commit-6409097d-df91-47e7-9cc2-cb03adeca7f8",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
   "commitInfo": {
-   "title": "Forked from 0.30",
-   "timeStamp": "2026-07-17T10:15:18.916081486Z"
+   "title": "Forked from 0.20",
+   "description": "v3",
+   "timeStamp": "2026-07-17T09:58:20.673Z"
   },
   "customInput": {
-   "Age": {
- "name": "Age",
- "dataType": "numeric",
- "isOptional": false,
- "isNullable": false,
- "isCaseSensitive": false,
- "attribute": "",
- "sourceType": "",
- "executedValue": 29,
- "config": {
-  
- },
- "value": "",
- "next": "",
- "previous": "Name",
- "schemaId": ""
-},
    "Name": {
  "name": "Name",
  "dataType": "string",
@@ -45,11 +30,9 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": "Atul",
- "config": {
-  
- },
+ "config": null,
  "value": "",
- "next": "Age",
+ "next": "",
  "previous": "",
  "schemaId": ""
 }
@@ -57,15 +40,8 @@
   "ruleChain": null,
   "decisionTable": {
    "rows": {
-    "g_dtXjKN": {
- "nextId": "",
- "prevId": "g_jpq9CH",
- "firstOutputData": "output_9aB0ur",
- "isEnabled": true,
- "annotation": ""
-},
     "g_jpq9CH": {
- "nextId": "g_dtXjKN",
+ "nextId": "",
  "prevId": "rule_01",
  "firstOutputData": "output_SHeMVA",
  "isEnabled": true,
@@ -88,17 +64,10 @@
    },
    "results": {
     "result_2uhuKm": {
- "nextId": "result_yquyEI",
+ "nextId": "",
  "prevId": "",
  "dataType": "string",
  "keyName": "result_1",
- "schemaId": ""
-},
-    "result_yquyEI": {
- "nextId": "",
- "prevId": "result_2uhuKm",
- "dataType": "jsFormula",
- "keyName": "result_2",
  "schemaId": ""
 }
    },
@@ -110,46 +79,13 @@
   "action": {
    "then": {
     "outputData": {
-     "output_7xbDLT": {
- "name": "result_2",
- "dataType": "jsFormula",
- "returnType": "string",
- "value": "var a=\"Ati;\";a;",
- "next": "",
- "executedValue": "Ati;",
- "attribute": "",
- "source": "",
- "schemaId": ""
-},
-     "output_9aB0ur": {
- "name": "result_1",
- "dataType": "string",
- "returnType": "",
- "value": "Value123",
- "next": "output_zcy5Vw",
- "executedValue": "Value123",
- "attribute": "",
- "source": "",
- "schemaId": ""
-},
-     "output_F1SKMz": {
- "name": "result_2",
- "dataType": "jsFormula",
- "returnType": "",
- "value": null,
- "next": "",
- "executedValue": null,
- "attribute": "",
- "source": "",
- "schemaId": ""
-},
      "output_SHeMVA": {
  "name": "result_1",
  "dataType": "string",
  "returnType": "",
- "value": "Value567",
- "next": "output_F1SKMz",
- "executedValue": "Value567",
+ "value": "Value56",
+ "next": "",
+ "executedValue": "Value56",
  "attribute": "",
  "source": "",
  "schemaId": ""
@@ -158,20 +94,9 @@
  "name": "result_1",
  "dataType": "string",
  "returnType": "",
- "value": "Value1234",
- "next": "output_7xbDLT",
- "executedValue": "Value1234",
- "attribute": "",
- "source": "",
- "schemaId": ""
-},
-     "output_zcy5Vw": {
- "name": "result_2",
- "dataType": "jsFormula",
- "returnType": "",
- "value": null,
+ "value": "Value123",
  "next": "",
- "executedValue": null,
+ "executedValue": "Value123",
  "attribute": "",
  "source": "",
  "schemaId": ""
@@ -207,18 +132,6 @@
  "notSend": false
 }
  },
- "next": "actionData_action_2"
-},
-     "actionData_action_2": {
- "name": "action_2",
- "connectorId": "",
- "entity": "workflow",
- "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
- "pluginName": "",
- "config": {
-  "query": ""
- },
- "input": null,
  "next": ""
 }
     },
@@ -249,42 +162,6 @@
   "rule_03"
  ],
  "rightNode": [],
- "siblingIndex": 1,
- "returnType": ""
-},
-    "c_k8thbF": {
- "value": null,
- "sourceType": "",
- "name": "Formula",
- "operator": "1===1",
- "dataType": "excelCondition",
- "nodeType": "excelCondition",
- "attribute": "",
- "query": "if(LEN(\"{{.customInput.Name}}\")>0){\n  true;\n}\nelse{\n  false;\n}",
- "parent": "g_dtXjKN",
- "children": null,
- "leftNode": [
-  "rule_03"
- ],
- "rightNode": [],
- "siblingIndex": 1,
- "returnType": ""
-},
-    "g_dtXjKN": {
- "value": null,
- "sourceType": "",
- "name": "",
- "operator": "and",
- "dataType": "",
- "nodeType": "group",
- "attribute": "",
- "query": "",
- "parent": "",
- "children": [
-  "c_k8thbF"
- ],
- "leftNode": null,
- "rightNode": null,
  "siblingIndex": 1,
  "returnType": ""
 },
@@ -402,29 +279,16 @@
  "dependencies": [
   {
    "isDeleted": false,
-   "createdAt": "2026-07-17T10:15:18.921713Z",
-   "updatedAt": "2026-07-20T07:02:15.563578Z",
-   "entityCommitId": "commit-b1052cda-fdbb-49a2-b3c3-bc93c3e5010c",
+   "createdAt": "2026-07-17T09:57:50.908647Z",
+   "updatedAt": "2026-07-17T09:58:20.676772Z",
+   "entityCommitId": "commit-6409097d-df91-47e7-9cc2-cb03adeca7f8",
    "entityType": "rule",
    "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-   "entityVersion": "draft",
+   "entityVersion": "0.30",
    "entityNodeId": "then-actionData_action_1",
    "dependencyType": "rule",
    "dependencyId": "bf006697-161a-4722-be5b-b6739247f8ce",
    "dependencyVersion": "0.10"
-  },
-  {
-   "isDeleted": false,
-   "createdAt": "2026-07-20T06:18:48.623355Z",
-   "updatedAt": "2026-07-20T07:02:15.562147Z",
-   "entityCommitId": "commit-b1052cda-fdbb-49a2-b3c3-bc93c3e5010c",
-   "entityType": "rule",
-   "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-   "entityVersion": "draft",
-   "entityNodeId": "then-actionData_action_2",
-   "dependencyType": "workflow",
-   "dependencyId": "7337725c-d6ac-4794-b38f-5871670b87c7",
-   "dependencyVersion": "draft"
   }
  ]
 }

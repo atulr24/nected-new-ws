@@ -1,0 +1,105 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-07-16T10:42:44.146Z",
+   "updatedAt": "2026-07-16T11:56:38.328774Z",
+   "isDeleted": false,
+   "entityId": "4f70a61d-bab9-4c27-a2d2-091a24245ec7",
+   "name": "Test 1",
+   "group": [
+    "g"
+   ],
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 30
+},
+     "Date": {
+ "value": "2026-07-15"
+},
+     "List": {
+ "value": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ]
+},
+     "ListOFLists": {
+ "value": [
+  1,
+  2,
+  3,
+  4
+ ]
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "output": [
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "name": "jsRule",
+  "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "Value123",
+  "rowError": null,
+  "rowId": 1
+ }
+]
+ },
+ {
+  "action": {
+ "action_1": true,
+ "action_2": true
+},
+  "name": "srSanity",
+  "output": [
+ {
+  "defaultOutputData": true
+ }
+]
+ },
+ {
+  "action": {
+ "df": true
+},
+  "additionalOutput": {
+ "addnRes": "isValid"
+},
+  "name": "TestRule",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "result_1": "valid",
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+ }
+]
+   }
+  }
+ ]
+}

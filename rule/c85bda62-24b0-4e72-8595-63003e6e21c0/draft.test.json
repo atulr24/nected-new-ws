@@ -1,0 +1,51 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-07-16T08:17:23.864Z",
+   "updatedAt": "2026-07-16T10:51:03.596274Z",
+   "isDeleted": false,
+   "entityId": "19685b67-e8ed-4583-bfbb-11a2eafdd044",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "List": {
+ "value": [
+  1,
+  2,
+  3
+ ]
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "additionalOutput": {
+ 
+},
+    "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  }
+ ]
+}

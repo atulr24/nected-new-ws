@@ -1,16 +1,17 @@
 {
  "entityType": "rule",
  "category": "simpleRule",
+ "live": true,
  "data": {
   "createdAt": "2026-07-15T07:14:46.57Z",
-  "updatedAt": "2026-07-20T09:19:25.718097Z",
+  "updatedAt": "2026-07-20T09:19:25.713Z",
   "isDeleted": false,
   "testedAt": "2026-07-20T09:19:18.257Z",
   "publishedAt": "2026-07-20T09:19:25.706Z",
   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
   "version": "0.60",
   "name": "srSanity",
-  "commitId": "commit-f848a2e2-f349-488e-9c43-8ea95aa1e9a9",
+  "commitId": "commit-717d13e2-399a-49ee-98b1-4a0773705b46",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
@@ -322,5 +323,33 @@
    "Dataset is attached in rule input but not used inside any condition or used only with Any operator."
   ],
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T08:29:00.322014Z",
+   "updatedAt": "2026-07-20T09:19:25.710623Z",
+   "entityCommitId": "commit-717d13e2-399a-49ee-98b1-4a0773705b46",
+   "entityType": "rule",
+   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "entityVersion": "0.60",
+   "entityNodeId": "dataSet",
+   "dependencyType": "dataSet",
+   "dependencyId": "b36fea22-c50f-4c10-b055-0d2ecd433514",
+   "dependencyVersion": "0.20"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T08:29:00.323689Z",
+   "updatedAt": "2026-07-20T09:19:25.710623Z",
+   "entityCommitId": "commit-717d13e2-399a-49ee-98b1-4a0773705b46",
+   "entityType": "rule",
+   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "entityVersion": "0.60",
+   "entityNodeId": "json",
+   "dependencyType": "connector",
+   "dependencyId": "53178faf-800a-45e0-bdc1-96a0a9f3a41d",
+   "dependencyVersion": "live"
+  }
+ ]
 }

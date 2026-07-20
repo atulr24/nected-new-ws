@@ -4,30 +4,32 @@
  "live": true,
  "data": {
   "createdAt": "2026-07-15T07:09:00.215Z",
-  "updatedAt": "2026-07-15T07:09:13.012Z",
+  "updatedAt": "2026-07-16T10:37:39.413Z",
   "isDeleted": false,
-  "testedAt": "2026-07-15T07:09:07.053Z",
-  "publishedAt": "2026-07-15T07:09:13.006Z",
+  "testedAt": "2026-07-16T10:37:31.778Z",
+  "publishedAt": "2026-07-16T10:37:39.409Z",
   "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-  "version": "0.10",
+  "version": "0.20",
   "name": "jsRule",
-  "commitId": "commit-b211b061-6aba-4b29-a435-2b95fbe0bb77",
+  "commitId": "commit-11ba6137-48b3-43b0-9a5a-3e44334a4d2d",
   "status": "published",
   "lastVersion": "draft",
   "isLive": false,
   "commitInfo": {
-   "title": "Created at 2026-07-15 07:09:00",
-   "description": "v1",
-   "timeStamp": "2026-07-15T07:09:13.004Z"
+   "title": "Forked from 0.10",
+   "description": "vw",
+   "timeStamp": "2026-07-16T10:37:39.407Z"
   },
-  "customInput": null,
+  "customInput": {
+   
+  },
   "ruleChain": null,
   "decisionTable": {
    "rows": {
     "rule_01": {
  "nextId": "",
  "prevId": "",
- "firstOutputData": "",
+ "firstOutputData": "output_gcmZP5",
  "isEnabled": true,
  "annotation": ""
 }
@@ -40,17 +42,33 @@
 }
    },
    "results": {
-    
+    "result_2uhuKm": {
+ "nextId": "",
+ "prevId": "",
+ "dataType": "string",
+ "keyName": "result_1",
+ "schemaId": ""
+}
    },
    "firstRow": "rule_01",
    "firstProperty": "rule_03",
-   "firstResult": "",
+   "firstResult": "result_2uhuKm",
    "firstAggOutputData": ""
   },
   "action": {
    "then": {
     "outputData": {
-     
+     "output_gcmZP5": {
+ "name": "result_1",
+ "dataType": "string",
+ "returnType": "",
+ "value": "Value123",
+ "next": "",
+ "executedValue": "Value123",
+ "attribute": "",
+ "source": "",
+ "schemaId": ""
+}
     },
     "actionNode": {
      
@@ -145,7 +163,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },

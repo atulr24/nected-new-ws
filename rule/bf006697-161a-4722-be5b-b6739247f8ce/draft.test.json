@@ -1,0 +1,173 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-07-16T11:19:39.104Z",
+   "updatedAt": "2026-07-16T12:06:10.880435Z",
+   "isDeleted": false,
+   "entityId": "23dfed3b-fd45-4771-bad3-4205e3d74d1b",
+   "name": "Test 3",
+   "group": [
+    "FirstMatch"
+   ],
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 31
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "df": true
+},
+    "additionalOutput": {
+ "addnRes": "isValid"
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 2
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-07-16T11:15:48.812Z",
+   "updatedAt": "2026-07-16T12:05:20.337354Z",
+   "isDeleted": false,
+   "entityId": "8fa95977-4828-420d-bbdf-eab0bc16a6a6",
+   "name": "Test 2",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 30
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "df": true
+},
+    "additionalOutput": {
+ "addnRes": "isValid"
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "result_1": "valid",
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-07-16T11:14:35.97Z",
+   "updatedAt": "2026-07-16T12:05:08.599365Z",
+   "isDeleted": false,
+   "entityId": "36ed9f1f-f10f-4cab-9ebc-e34d6a41e40d",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "df": true
+},
+    "additionalOutput": {
+ "addnRes": "isValid"
+},
+    "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-07-16T11:58:53.44Z",
+   "updatedAt": "2026-07-16T11:58:53.44Z",
+   "isDeleted": false,
+   "entityId": "651be7d1-61d9-459a-a29b-27a229508ad4",
+   "name": "Test 4",
+   "group": [
+    "EvaluateAll"
+   ],
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 30
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "action": {
+ "df": true
+},
+    "additionalOutput": {
+ "addnRes": "isValid"
+},
+    "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": true,
+  "result_1": "valid",
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+]
+   }
+  }
+ ]
+}

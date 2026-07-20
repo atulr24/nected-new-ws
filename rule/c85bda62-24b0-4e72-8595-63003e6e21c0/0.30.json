@@ -1,22 +1,24 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2026-07-15T06:56:24.915Z",
-  "updatedAt": "2026-07-16T09:14:53.697672Z",
+  "updatedAt": "2026-07-15T12:45:39.638Z",
   "isDeleted": false,
   "testedAt": "2026-07-15T12:45:33.034Z",
   "publishedAt": "2026-07-15T12:45:39.632Z",
   "entityId": "c85bda62-24b0-4e72-8595-63003e6e21c0",
-  "version": "draft",
+  "version": "0.30",
   "name": "Test123",
-  "commitId": "commit-b33cbdfa-ed13-4824-94dc-cbcbc6409152",
-  "status": "draft",
-  "lastVersion": "0.30",
-  "isLive": false,
+  "commitId": "commit-cc67c99e-c4a3-4cd0-82f9-3657d9b1b449",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
   "commitInfo": {
-   "title": "Forked from 0.30",
-   "timeStamp": "2026-07-16T09:14:53.696671629Z"
+   "title": "Forked from 0.20",
+   "description": "v3",
+   "timeStamp": "2026-07-15T12:45:39.63Z"
   },
   "customInput": {
    "List": {
@@ -964,25 +966,25 @@
  "dependencies": [
   {
    "isDeleted": false,
-   "createdAt": "2026-07-16T09:14:53.709655Z",
-   "updatedAt": "2026-07-16T09:14:53.709655Z",
-   "entityCommitId": "commit-b33cbdfa-ed13-4824-94dc-cbcbc6409152",
+   "createdAt": "2026-07-15T12:45:21.930319Z",
+   "updatedAt": "2026-07-15T12:45:39.635157Z",
+   "entityCommitId": "commit-cc67c99e-c4a3-4cd0-82f9-3657d9b1b449",
    "entityType": "rule",
    "entityId": "c85bda62-24b0-4e72-8595-63003e6e21c0",
-   "entityVersion": "draft",
-   "entityNodeId": "then-actionData_sdf",
-   "dependencyType": "rule",
-   "dependencyId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-   "dependencyVersion": "0.10"
+   "entityVersion": "0.30",
+   "entityNodeId": "Name",
+   "dependencyType": "variable",
+   "dependencyId": "badb8de9-a065-4d58-81f1-35b4351b67e4",
+   "dependencyVersion": "live"
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-16T09:14:53.708963Z",
-   "updatedAt": "2026-07-16T09:14:53.708963Z",
-   "entityCommitId": "commit-b33cbdfa-ed13-4824-94dc-cbcbc6409152",
+   "createdAt": "2026-07-15T12:45:21.926274Z",
+   "updatedAt": "2026-07-15T12:45:39.635157Z",
+   "entityCommitId": "commit-cc67c99e-c4a3-4cd0-82f9-3657d9b1b449",
    "entityType": "rule",
    "entityId": "c85bda62-24b0-4e72-8595-63003e6e21c0",
-   "entityVersion": "draft",
+   "entityVersion": "0.30",
    "entityNodeId": "then-actionData_actiondfd_2",
    "dependencyType": "rule",
    "dependencyId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
@@ -990,16 +992,16 @@
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-16T09:14:53.707739Z",
-   "updatedAt": "2026-07-16T09:14:53.707739Z",
-   "entityCommitId": "commit-b33cbdfa-ed13-4824-94dc-cbcbc6409152",
+   "createdAt": "2026-07-15T12:45:21.920589Z",
+   "updatedAt": "2026-07-15T12:45:39.635157Z",
+   "entityCommitId": "commit-cc67c99e-c4a3-4cd0-82f9-3657d9b1b449",
    "entityType": "rule",
    "entityId": "c85bda62-24b0-4e72-8595-63003e6e21c0",
-   "entityVersion": "draft",
-   "entityNodeId": "Name",
-   "dependencyType": "variable",
-   "dependencyId": "badb8de9-a065-4d58-81f1-35b4351b67e4",
-   "dependencyVersion": "live"
+   "entityVersion": "0.30",
+   "entityNodeId": "then-actionData_sdf",
+   "dependencyType": "rule",
+   "dependencyId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+   "dependencyVersion": "0.10"
   }
  ]
 }

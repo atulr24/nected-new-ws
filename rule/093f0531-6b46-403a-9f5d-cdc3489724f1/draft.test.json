@@ -1,0 +1,108 @@
+{
+ "entityType": "testcase",
+ "category": "rule",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-07-16T12:04:16.258Z",
+   "updatedAt": "2026-07-16T12:09:10.587434Z",
+   "isDeleted": false,
+   "entityId": "22ed5f87-a4e6-4afb-9b95-25af915d068b",
+   "name": "Test 2",
+   "group": [
+    "srTest"
+   ],
+   "input": {
+    "ci": {
+     "Date": {
+ "value": "2026-07-15"
+},
+     "ListOFLists": {
+ "value": [
+  "Atul",
+  "raizada"
+ ]
+}
+    }
+   },
+   "output": {
+    "action": {
+ "action_1": true,
+ "action_2": true
+},
+    "output": [
+ {
+  "TrueResult": "Correct",
+  "defaultOutputData": true
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-07-16T12:07:02.23Z",
+   "updatedAt": "2026-07-16T12:07:02.23Z",
+   "isDeleted": false,
+   "entityId": "87997e56-b4dd-4f34-a783-7b8d7cc07b2e",
+   "name": "Test 3",
+   "group": [
+    "srTest"
+   ],
+   "input": {
+    "ci": {
+     "Date": {
+ "value": "2026-07-16"
+},
+     "ListOFLists": {
+ "value": [
+  "Atul",
+  "raizada"
+ ]
+}
+    }
+   },
+   "output": {
+    "action": null,
+    "output": [
+ {
+  "defaultOutputData": false
+ }
+]
+   }
+  },
+  {
+   "createdAt": "2026-07-16T12:00:11.282Z",
+   "updatedAt": "2026-07-16T12:03:22.256925Z",
+   "isDeleted": false,
+   "entityId": "d8d220e0-e49a-41b3-bf93-1606a3aa99bd",
+   "name": "Test 1",
+   "group": [
+    "srTest"
+   ],
+   "input": {
+    "ci": {
+     "Date": {
+ "value": "2026-07-14"
+},
+     "ListOFLists": {
+ "value": [
+  "Atul",
+  "raizada"
+ ]
+}
+    }
+   },
+   "output": {
+    "action": {
+ "action_1": true,
+ "action_2": true
+},
+    "output": [
+ {
+  "FailResult": "Incorrect",
+  "defaultOutputData": false
+ }
+]
+   }
+  }
+ ]
+}

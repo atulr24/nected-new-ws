@@ -3,21 +3,21 @@
  "live": true,
  "data": {
   "createdAt": "2026-07-15T07:33:06.444Z",
-  "updatedAt": "2026-07-15T12:31:58.699Z",
+  "updatedAt": "2026-07-17T11:03:59.922Z",
   "isDeleted": false,
-  "testedAt": "2026-07-15T12:30:22.753Z",
-  "publishedAt": "2026-07-15T12:31:58.692Z",
+  "testedAt": "2026-07-17T11:03:53.952Z",
+  "publishedAt": "2026-07-17T11:03:59.911Z",
   "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-  "version": "0.40",
+  "version": "0.50",
   "name": "wf123",
-  "commitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+  "commitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": false,
+  "isLive": true,
   "commitInfo": {
-   "title": "Forked from 0.30",
-   "description": "v4",
-   "timeStamp": "2026-07-15T12:31:58.689Z"
+   "title": "Forked from 0.40",
+   "description": "v5",
+   "timeStamp": "2026-07-17T11:03:59.907Z"
   },
   "startNode": "n_wdLWnJ",
   "description": "",
@@ -28,7 +28,7 @@
   "nodes": [
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 0
     },
     "style": null,
@@ -72,7 +72,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 130
     },
     "style": null,
@@ -109,7 +109,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1305
     },
     "style": null,
@@ -170,7 +170,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1435
     },
     "style": null,
@@ -207,7 +207,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1510
     },
     "style": null,
@@ -416,7 +416,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1640
     },
     "style": null,
@@ -453,7 +453,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1715
     },
     "style": null,
@@ -518,7 +518,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1845
     },
     "style": null,
@@ -555,7 +555,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 205
     },
     "style": null,
@@ -616,13 +616,13 @@
      "switcher": null,
      "conditions": null,
      "blockName": "setVariable",
-     "testedAt": "2026-07-15T12:30:22.753Z"
+     "testedAt": "2026-07-17T11:03:46.981Z"
     },
     "draggable": false
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 335
     },
     "style": null,
@@ -659,7 +659,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 410
     },
     "style": null,
@@ -668,11 +668,90 @@
     "id": "n_NTVyiV",
     "type": "rule",
     "data": {
-     "input": null,
+     "input": {
+      "Age": {
+ "value": 23,
+ "executedValue": null,
+ "name": "Age",
+ "dataType": "numeric",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "Date": {
+ "value": "2024-12-03",
+ "executedValue": null,
+ "name": "Date",
+ "dataType": "date",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "ListOFLists": {
+ "value": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "executedValue": null,
+ "name": "ListOFLists",
+ "dataType": "list",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": "871d752a-5848-4830-9a73-6d634bf9d083"
+},
+      "Name": {
+ "value": "asd",
+ "executedValue": null,
+ "name": "Name",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
      "output": null,
      "executedValue": {
       "error": "",
-      "executionTime": "1ms",
+      "executionTime": "6ms",
       "name": "rs123",
       "output": [
  {
@@ -685,12 +764,13 @@
   "output": [
  {
   "defaultOutputData": true,
+  "result_1": "Value123",
   "rowError": null,
   "rowId": 1
  }
 ],
   "ruleId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-  "version": "0.10",
+  "version": "0.20",
   "warnings": []
  },
  {
@@ -703,11 +783,39 @@
  }
 ],
   "ruleId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
-  "version": "0.10",
+  "version": "0.40",
+  "warnings": []
+ },
+ {
+  "action": null,
+  "additionalOutput": {
+ 
+},
+  "errors": "",
+  "name": "TestRule",
+  "output": [
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 1
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 2
+ },
+ {
+  "defaultOutputData": false,
+  "rowError": null,
+  "rowId": 3
+ }
+],
+  "ruleId": "bf006697-161a-4722-be5b-b6739247f8ce",
+  "version": "0.30",
   "warnings": []
  }
 ],
-      "version": "0.20"
+      "version": "0.30"
      },
      "settings": {
       "actionInSync": false,
@@ -734,13 +842,13 @@
      "switcher": null,
      "conditions": null,
      "blockName": "ruleSet",
-     "testedAt": "2026-07-15T12:30:22.753Z"
+     "testedAt": "2026-07-17T11:03:46.981Z"
     },
     "draggable": false
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 540
     },
     "style": null,
@@ -777,7 +885,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 615
     },
     "style": null,
@@ -835,18 +943,11 @@
  
 },
       "error": "",
-      "executionTime": "904µs",
+      "executionTime": "1ms",
       "name": "Test123",
-      "output": [
- {
-  "defaultOutputData": true,
-  "result_1": "Atul",
-  "rowError": null,
-  "rowId": 1
- }
-],
+      "output": [],
       "ruleId": "c85bda62-24b0-4e72-8595-63003e6e21c0",
-      "version": "0.10",
+      "version": "0.30",
       "warnings": []
      },
      "settings": {
@@ -874,13 +975,13 @@
      "switcher": null,
      "conditions": null,
      "blockName": "decisionTable",
-     "testedAt": "2026-07-15T12:30:22.753Z"
+     "testedAt": "2026-07-17T11:03:46.981Z"
     },
     "draggable": false
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 745
     },
     "style": null,
@@ -917,7 +1018,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1025
     },
     "style": null,
@@ -926,12 +1027,55 @@
     "id": "n_D5mwrU",
     "type": "rule",
     "data": {
-     "input": null,
+     "input": {
+      "Date": {
+ "value": "2026-07-16",
+ "executedValue": null,
+ "name": "Date",
+ "dataType": "date",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+},
+      "ListOFLists": {
+ "value": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "executedValue": null,
+ "name": "ListOFLists",
+ "dataType": "list",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": "871d752a-5848-4830-9a73-6d634bf9d083"
+}
+     },
      "output": null,
      "executedValue": {
       "action": null,
       "error": "",
-      "executionTime": "822µs",
+      "executionTime": "950µs",
       "name": "srSanity",
       "output": [
  {
@@ -939,7 +1083,7 @@
  }
 ],
       "ruleId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
-      "version": "0.10",
+      "version": "0.40",
       "warnings": []
      },
      "settings": {
@@ -970,13 +1114,13 @@
      "switcher": null,
      "conditions": null,
      "blockName": "simpleRule",
-     "testedAt": "0001-01-01T00:00:00Z"
+     "testedAt": "2026-07-17T11:03:53.952Z"
     },
     "draggable": false
    },
    {
     "position": {
-     "x": 575.6666870117188,
+     "x": 341,
      "y": 1155
     },
     "style": null,
@@ -1013,7 +1157,7 @@
    },
    {
     "position": {
-     "x": 805.6666870117188,
+     "x": 571,
      "y": 1155
     },
     "style": null,
@@ -1050,7 +1194,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 1230
     },
     "style": null,
@@ -1087,7 +1231,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 820
     },
     "style": null,
@@ -1308,7 +1452,7 @@
    },
    {
     "position": {
-     "x": 690.6666870117188,
+     "x": 456,
      "y": 950
     },
     "style": null,
@@ -1720,12 +1864,12 @@
  "dependencies": [
   {
    "isDeleted": false,
-   "createdAt": "2026-07-15T12:29:25.23335Z",
-   "updatedAt": "2026-07-15T12:31:58.697353Z",
-   "entityCommitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+   "createdAt": "2026-07-17T11:03:00.385185Z",
+   "updatedAt": "2026-07-17T11:03:59.9187Z",
+   "entityCommitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
    "entityType": "workflow",
    "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "entityVersion": "0.40",
+   "entityVersion": "0.50",
    "entityNodeId": "n_7ExIIn",
    "dependencyType": "rule",
    "dependencyId": "c85bda62-24b0-4e72-8595-63003e6e21c0",
@@ -1733,12 +1877,12 @@
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-15T12:29:25.235772Z",
-   "updatedAt": "2026-07-15T12:31:58.697353Z",
-   "entityCommitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+   "createdAt": "2026-07-17T11:03:00.380999Z",
+   "updatedAt": "2026-07-17T11:03:59.9187Z",
+   "entityCommitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
    "entityType": "workflow",
    "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "entityVersion": "0.40",
+   "entityVersion": "0.50",
    "entityNodeId": "Name",
    "dependencyType": "variable",
    "dependencyId": "badb8de9-a065-4d58-81f1-35b4351b67e4",
@@ -1746,25 +1890,25 @@
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-15T12:29:25.232467Z",
-   "updatedAt": "2026-07-15T12:31:58.697353Z",
-   "entityCommitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+   "createdAt": "2026-07-17T11:03:00.386037Z",
+   "updatedAt": "2026-07-17T11:03:59.9187Z",
+   "entityCommitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
    "entityType": "workflow",
    "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "entityVersion": "0.40",
+   "entityVersion": "0.50",
    "entityNodeId": "n_D5mwrU",
    "dependencyType": "rule",
    "dependencyId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
-   "dependencyVersion": "live"
+   "dependencyVersion": "0.40"
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-15T12:29:25.230443Z",
-   "updatedAt": "2026-07-15T12:31:58.697353Z",
-   "entityCommitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+   "createdAt": "2026-07-17T11:03:00.382591Z",
+   "updatedAt": "2026-07-17T11:03:59.9187Z",
+   "entityCommitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
    "entityType": "workflow",
    "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "entityVersion": "0.40",
+   "entityVersion": "0.50",
    "entityNodeId": "n_h371Bh",
    "dependencyType": "connector",
    "dependencyId": "53178faf-800a-45e0-bdc1-96a0a9f3a41d",
@@ -1772,25 +1916,25 @@
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-15T12:29:25.234191Z",
-   "updatedAt": "2026-07-15T12:31:58.697353Z",
-   "entityCommitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+   "createdAt": "2026-07-17T11:03:00.384363Z",
+   "updatedAt": "2026-07-17T11:03:59.9187Z",
+   "entityCommitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
    "entityType": "workflow",
    "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "entityVersion": "0.40",
+   "entityVersion": "0.50",
    "entityNodeId": "n_NTVyiV",
    "dependencyType": "rule",
    "dependencyId": "f6473d03-a6f6-4911-a58f-81af48f0db19",
-   "dependencyVersion": "live"
+   "dependencyVersion": "0.30"
   },
   {
    "isDeleted": false,
-   "createdAt": "2026-07-15T12:29:25.234983Z",
-   "updatedAt": "2026-07-15T12:31:58.697353Z",
-   "entityCommitId": "commit-cd61a1a8-534e-4c98-878a-b3e0027d1353",
+   "createdAt": "2026-07-17T11:03:00.383496Z",
+   "updatedAt": "2026-07-17T11:03:59.9187Z",
+   "entityCommitId": "commit-08c4892e-0bdb-4c67-bbb2-7777bd14b3a1",
    "entityType": "workflow",
    "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
-   "entityVersion": "0.40",
+   "entityVersion": "0.50",
    "entityNodeId": "n_SlnhA1",
    "dependencyType": "rule",
    "dependencyId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
