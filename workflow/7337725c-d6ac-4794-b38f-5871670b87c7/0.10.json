@@ -1,24 +1,25 @@
 {
  "entityType": "workflow",
+ "live": true,
  "data": {
   "createdAt": "2026-07-20T06:11:02.055Z",
-  "updatedAt": "2026-07-20T12:55:42.780573Z",
+  "updatedAt": "2026-07-20T11:39:02.861Z",
   "isDeleted": false,
-  "testedAt": "2026-07-20T12:55:37.84Z",
-  "publishedAt": "2026-07-20T12:55:42.772Z",
+  "testedAt": "2026-07-20T11:38:58.37Z",
+  "publishedAt": "2026-07-20T11:39:02.857Z",
   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
-  "version": "0.30",
+  "version": "0.10",
   "name": "WF1",
-  "commitId": "commit-9aa4ddc5-f3a5-4f29-828d-3594d34cf9db",
+  "commitId": "commit-f0e80833-0d9b-4855-87b5-8c5bfddc76bb",
   "status": "published",
   "lastVersion": "draft",
-  "isLive": true,
+  "isLive": false,
   "commitInfo": {
-   "title": "Forked from 0.10",
-   "description": "v2",
-   "timeStamp": "2026-07-20T12:55:42.769Z"
+   "title": "Created at 2026-07-20 06:11:02",
+   "description": "v1",
+   "timeStamp": "2026-07-20T11:39:02.853Z"
   },
-  "startNode": "n_D5qiE0",
+  "startNode": "n_NqRWo4",
   "description": "",
   "trigger": {
    "apiNode": "1",
@@ -243,7 +244,7 @@
    {
     "position": {
      "x": 461.046875,
-     "y": 410
+     "y": 205
     },
     "style": null,
     "sourcePosition": "bottom",
@@ -251,15 +252,135 @@
     "id": "n_NqRWo4",
     "type": "rule",
     "data": {
-     "input": null,
+     "input": {
+      "Name": {
+ "value": "Atuln",
+ "executedValue": null,
+ "name": "Name",
+ "dataType": "string",
+ "source": "",
+ "attribute": "",
+ "keySource": "",
+ "keyAttribute": "",
+ "mapping": false,
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "sendNull": false,
+ "notSend": false,
+ "order": 0,
+ "schemaId": ""
+}
+     },
      "output": null,
      "executedValue": {
-      "action": null,
+      "action": {
+ "action_1": {
+ "error": "",
+ "executionId": "action:1112:02b211b0-ff8c-467f-b530-b18a5c362ae3:d98544b0-892f-42d1-aaa5-ae915676fb5c/action_1",
+ "name": "action_1",
+ "nodeId": "action#then#actionData_action_1",
+ "output": {
+ "Result": {
+ "action": {
+ "df": {
+ "error": "",
+ "executionId": "action:1112:bf006697-161a-4722-be5b-b6739247f8ce:be3c5562-5278-42ca-9312-afa4c613b92b/df",
+ "name": "df",
+ "nodeId": "action#then#actionData_df",
+ "output": {
+ "Result": {
+ "action": {
+ "action_1": {
+ "error": "",
+ "executionId": "action:1112:093f0531-6b46-403a-9f5d-cdc3489724f1:e5cc9394-96e0-49fe-ae21-e7ddca29d703/action_1",
+ "name": "action_1",
+ "nodeId": "action#then#actionData_action_1",
+ "output": {
+ "Result": {
+ "action": null,
+ "additionalOutput": {
+ 
+},
+ "executionTime": 41507136,
+ "name": "jsRule",
+ "output": [
+ {
+  "defaultOutputData": true,
+  "rowError": null,
+  "rowId": 1
+ }
+],
+ "ruleId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+ "version": "0.10",
+ "warnings": []
+},
+ "error": null,
+ "name": "action_1"
+}
+},
+ "action_2": {
+ "error": "",
+ "executionId": "action:1112:093f0531-6b46-403a-9f5d-cdc3489724f1:e5cc9394-96e0-49fe-ae21-e7ddca29d703/action_2",
+ "name": "action_2",
+ "nodeId": "action#then#actionData_action_2",
+ "output": {
+ "Result": {
+ "error": "",
+ "executionTime": 69021309,
+ "output": {
+ "version": "v2"
+},
+ "resumeInfo": []
+},
+ "error": null,
+ "name": "action_2"
+}
+}
+},
+ "executionTime": 363213877,
+ "name": "srSanity",
+ "output": [
+ {
+  "defaultOutputData": true
+ }
+],
+ "ruleId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+ "version": "0.20",
+ "warnings": []
+},
+ "error": null,
+ "name": "df"
+}
+}
+},
+ "additionalOutput": {
+ "addnRes": "isValid"
+},
+ "executionTime": 585048286,
+ "name": "TestRule",
+ "output": [
+ {
+  "defaultOutputData": true,
+  "result_1": "valid",
+  "rowError": null,
+  "rowId": 1
+ }
+],
+ "ruleId": "bf006697-161a-4722-be5b-b6739247f8ce",
+ "version": "0.10",
+ "warnings": []
+},
+ "error": null,
+ "name": "action_1"
+}
+}
+},
       "additionalOutput": {
  
 },
       "error": "",
-      "executionTime": "728µs",
+      "executionTime": "714ms",
       "name": "jsRule",
       "output": [
  {
@@ -270,7 +391,7 @@
  }
 ],
       "ruleId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
-      "version": "0.20",
+      "version": "0.30",
       "warnings": []
      },
      "settings": {
@@ -298,14 +419,14 @@
      "switcher": null,
      "conditions": null,
      "blockName": "decisionTable",
-     "testedAt": "2026-07-20T12:55:37.84Z"
+     "testedAt": "0001-01-01T00:00:00Z"
     },
     "draggable": false
    },
    {
     "position": {
      "x": 461.046875,
-     "y": 540
+     "y": 335
     },
     "style": null,
     "sourcePosition": "bottom",
@@ -342,7 +463,7 @@
    {
     "position": {
      "x": 461.046875,
-     "y": 615
+     "y": 410
     },
     "style": null,
     "sourcePosition": "bottom",
@@ -434,14 +555,14 @@
      "switcher": null,
      "conditions": null,
      "blockName": "simpleRule",
-     "testedAt": "0001-01-01T00:00:00Z"
+     "testedAt": "2026-07-20T11:38:58.37Z"
     },
     "draggable": false
    },
    {
     "position": {
      "x": 346.046875,
-     "y": 745
+     "y": 540
     },
     "style": null,
     "sourcePosition": "bottom",
@@ -478,7 +599,7 @@
    {
     "position": {
      "x": 576.046875,
-     "y": 745
+     "y": 540
     },
     "style": null,
     "sourcePosition": "bottom",
@@ -515,7 +636,7 @@
    {
     "position": {
      "x": 461.046875,
-     "y": 820
+     "y": 615
     },
     "style": null,
     "sourcePosition": "bottom",
@@ -536,145 +657,6 @@
      "rootId": "n_6dOE7R",
      "sourceId": null,
      "isMergeNode": true,
-     "runInLoop": {
-      "status": false,
-      "source": "",
-      "attribute": "",
-      "value": null
-     },
-     "switcher": null,
-     "conditions": null,
-     "blockName": "",
-     "testedAt": "0001-01-01T00:00:00Z"
-    },
-    "draggable": false
-   },
-   {
-    "position": {
-     "x": 461.046875,
-     "y": 205
-    },
-    "style": null,
-    "sourcePosition": "bottom",
-    "targetPosition": "top",
-    "id": "n_D5qiE0",
-    "type": "workflowNode",
-    "data": {
-     "input": {
-      "ListOFLists": {
- "value": [
-  "Atul",
-  "raizada"
- ],
- "executedValue": null,
- "name": "ListOFLists",
- "dataType": "list",
- "source": "",
- "attribute": "",
- "keySource": "",
- "keyAttribute": "",
- "mapping": false,
- "isOptional": false,
- "isNullable": false,
- "isCaseSensitive": false,
- "sendNull": false,
- "notSend": false,
- "order": 0,
- "schemaId": "871d752a-5848-4830-9a73-6d634bf9d083"
-},
-      "Name": {
- "value": "",
- "executedValue": null,
- "name": "Name",
- "dataType": "string",
- "source": "Trigger",
- "attribute": "Name",
- "keySource": "",
- "keyAttribute": "",
- "mapping": false,
- "isOptional": false,
- "isNullable": false,
- "isCaseSensitive": false,
- "sendNull": false,
- "notSend": false,
- "order": 0,
- "schemaId": ""
-}
-     },
-     "output": null,
-     "executedValue": {
-      "error": "",
-      "executionTime": "5.55s",
-      "name": "WF3",
-      "output": {
- "NAmes": "Raizada",
- "key_0": "internal-loop-wf:1112:n_9RNiCQ:a7d4596f-8de1-467e-a0a4-e68c258e7d95",
- "key_1": 29,
- "key_4": {
- "Age": 20,
- "Name": "Atul"
-},
- "list": [
- 1,
- 2,
- 3,
- 4,
- 5
-]
-},
-      "version": "0.10"
-     },
-     "settings": {
-      "errorContinue": false,
-      "timeout": 10,
-      "timeoutAsync": 20
-     },
-     "nodeType": "workflowNode",
-     "entity": "workflow",
-     "entityId": "db573c0c-d264-45e3-b9f8-a6bcae2c556d",
-     "pluginName": "",
-     "status": "success",
-     "name": "WF3",
-     "rootId": "",
-     "sourceId": null,
-     "isMergeNode": false,
-     "runInLoop": {
-      "status": false,
-      "source": "",
-      "attribute": "",
-      "value": null
-     },
-     "switcher": null,
-     "conditions": null,
-     "blockName": "workflow",
-     "testedAt": "2026-07-20T12:55:33.9Z"
-    },
-    "draggable": false
-   },
-   {
-    "position": {
-     "x": 461.046875,
-     "y": 335
-    },
-    "style": null,
-    "sourcePosition": "bottom",
-    "targetPosition": "top",
-    "id": "n_iKPDQr",
-    "type": "addNode",
-    "data": {
-     "input": null,
-     "output": null,
-     "executedValue": null,
-     "settings": null,
-     "nodeType": "addNodeMd",
-     "entity": "",
-     "entityId": "",
-     "pluginName": "",
-     "status": "",
-     "name": "",
-     "rootId": "",
-     "sourceId": null,
-     "isMergeNode": false,
      "runInLoop": {
       "status": false,
       "source": "",
@@ -821,47 +803,11 @@
      "stroke": "gray",
      "strokeWidth": 1
     },
-    "id": "e_PqYF4p",
-    "markerEnd": "",
-    "label": "",
-    "source": "n_iKPDQr",
-    "target": "n_NqRWo4",
-    "data": {
-     "edgeType": "then",
-     "pathId": ""
-    },
-    "type": "smoothEdge",
-    "sourceHandle": "",
-    "animated": false
-   },
-   {
-    "style": {
-     "stroke": "gray",
-     "strokeWidth": 1
-    },
-    "id": "e_bh6uXc",
-    "markerEnd": "",
-    "label": "",
-    "source": "n_D5qiE0",
-    "target": "n_iKPDQr",
-    "data": {
-     "edgeType": "then",
-     "pathId": ""
-    },
-    "type": "smoothEdge",
-    "sourceHandle": "",
-    "animated": false
-   },
-   {
-    "style": {
-     "stroke": "gray",
-     "strokeWidth": 1
-    },
-    "id": "e_F4WSij",
+    "id": "e_HSmALh",
     "markerEnd": "",
     "label": "",
     "source": "n_0TyceA",
-    "target": "n_D5qiE0",
+    "target": "n_NqRWo4",
     "data": {
      "edgeType": "then",
      "pathId": ""
@@ -881,5 +827,33 @@
   },
   "comment": "",
   "isDemo": false
- }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T07:04:37.320579Z",
+   "updatedAt": "2026-07-20T11:39:02.859357Z",
+   "entityCommitId": "commit-f0e80833-0d9b-4855-87b5-8c5bfddc76bb",
+   "entityType": "workflow",
+   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
+   "entityVersion": "0.10",
+   "entityNodeId": "n_6dOE7R",
+   "dependencyType": "rule",
+   "dependencyId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "dependencyVersion": "0.30"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T06:46:22.826674Z",
+   "updatedAt": "2026-07-20T11:39:02.859357Z",
+   "entityCommitId": "commit-f0e80833-0d9b-4855-87b5-8c5bfddc76bb",
+   "entityType": "workflow",
+   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
+   "entityVersion": "0.10",
+   "entityNodeId": "n_NqRWo4",
+   "dependencyType": "rule",
+   "dependencyId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+   "dependencyVersion": "0.30"
+  }
+ ]
 }

@@ -3,124 +3,58 @@
  "category": "simpleRule",
  "data": {
   "createdAt": "2026-07-15T07:14:46.57Z",
-  "updatedAt": "2026-07-20T09:19:25.718097Z",
+  "updatedAt": "2026-07-20T09:33:50.427935Z",
   "isDeleted": false,
-  "testedAt": "2026-07-20T09:19:18.257Z",
-  "publishedAt": "2026-07-20T09:19:25.706Z",
+  "testedAt": "2026-07-20T09:33:50.426Z",
+  "publishedAt": "2026-07-17T11:15:14.271Z",
   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
-  "version": "0.60",
+  "version": "draft",
   "name": "srSanity",
-  "commitId": "commit-f848a2e2-f349-488e-9c43-8ea95aa1e9a9",
-  "status": "published",
-  "lastVersion": "draft",
-  "isLive": true,
+  "commitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
+  "status": "tested",
+  "lastVersion": "0.50",
+  "isLive": false,
   "commitInfo": {
    "title": "Forked from 0.50",
-   "description": "v1",
-   "timeStamp": "2026-07-20T09:19:25.705Z"
+   "timeStamp": "2026-07-20T09:33:43.559329066Z"
   },
   "customInput": {
-   "List": {
- "name": "List",
- "dataType": "boolean",
+   "Date": {
+ "name": "Date",
+ "dataType": "date",
  "isOptional": false,
  "isNullable": false,
  "isCaseSensitive": false,
  "attribute": "",
  "sourceType": "",
- "executedValue": null,
+ "executedValue": "2026-07-15",
  "config": {
   
  },
  "value": "",
- "next": "aag",
+ "next": "ListOFLists",
  "previous": "",
  "schemaId": ""
 },
-   "aag": {
- "name": "aag",
- "dataType": "numeric",
+   "ListOFLists": {
+ "name": "ListOFLists",
+ "dataType": "list",
  "isOptional": false,
  "isNullable": false,
  "isCaseSensitive": false,
- "attribute": "age",
- "sourceType": "dataSet",
- "executedValue": 10,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": [
+  "Atul",
+  "raizada"
+ ],
  "config": {
   
  },
  "value": "",
- "next": "json",
- "previous": "List",
- "schemaId": ""
-},
-   "json": {
- "name": "json",
- "dataType": "restAPI",
- "isOptional": false,
- "isNullable": false,
- "isCaseSensitive": false,
- "attribute": "53178faf-800a-45e0-bdc1-96a0a9f3a41d",
- "sourceType": "restAPI",
- "executedValue": {
-  "Body": {
- "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
- "id": 2,
- "title": "qui est esse",
- "userId": 1
-},
-  "Headers": {
- "Access-Control-Allow-Credentials": "true",
- "Age": "15967",
- "Alt-Svc": "h3=\":443\"; ma=86400",
- "Cache-Control": "max-age=43200",
- "Cf-Cache-Status": "HIT",
- "Cf-Ray": "a1e0984f5f98ff7b-BOM",
- "Content-Type": "application/json; charset=utf-8",
- "Date": "Mon, 20 Jul 2026 08:28:53 GMT",
- "Etag": "W/\"116-jnDuMpjju89+9j7e0BqkdFsVRjs\"",
- "Expires": "-1",
- "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
- "Pragma": "no-cache",
- "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=XxSqhHJq5tMamh9fJUpJXArzA5jg%2FdTtKTjR6reYetY%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1784401665\"}],\"max_age\":3600}",
- "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=XxSqhHJq5tMamh9fJUpJXArzA5jg%2FdTtKTjR6reYetY%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1784401665\"",
- "Server": "cloudflare",
- "Server-Timing": "cfCacheStatus;desc=\"HIT\",cfEdge;dur=6,cfOrigin;dur=0",
- "Vary": "Origin, Accept-Encoding",
- "Via": "2.0 heroku-router",
- "X-Content-Type-Options": "nosniff",
- "X-Powered-By": "Express",
- "X-Ratelimit-Limit": "1000",
- "X-Ratelimit-Remaining": "818",
- "X-Ratelimit-Reset": "1784401698"
-},
-  "StatusCode": 200,
-  "error": ""
- },
- "config": {
-  "body": null,
-  "bodyParams": null,
-  "contentType": "",
-  "headers": [],
-  "method": "",
-  "path": "/posts/2",
-  "query": "",
-  "queryParams": [],
-  "settings": {
- "cache": {
- "cacheKeys": "",
- "duration": {
- "unit": "d",
- "value": 0
-},
- "enabled": false
-}
-}
- },
- "value": "",
  "next": "",
- "previous": "aag",
- "schemaId": ""
+ "previous": "Date",
+ "schemaId": "871d752a-5848-4830-9a73-6d634bf9d083"
 }
   },
   "ruleChain": null,
@@ -136,91 +70,80 @@
   "action": {
    "then": {
     "outputData": {
-     
+     "TrueResult": {
+ "name": "TrueResult",
+ "dataType": "string",
+ "returnType": "",
+ "value": "Correctn",
+ "next": "",
+ "executedValue": "Correctn",
+ "attribute": "",
+ "source": "",
+ "schemaId": ""
+}
     },
     "actionNode": {
-     
+     "actionData_action_1": {
+ "name": "action_1",
+ "connectorId": "",
+ "entity": "rule",
+ "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+ "pluginName": "",
+ "config": {
+  "query": ""
+ },
+ "input": null,
+ "next": "actionData_action_2"
+},
+     "actionData_action_2": {
+ "name": "action_2",
+ "connectorId": "",
+ "entity": "workflow",
+ "entityId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
+ "pluginName": "",
+ "config": {
+  "query": ""
+ },
+ "input": null,
+ "next": ""
+}
     },
-    "firstOutputData": "",
-    "firstActionNode": ""
+    "firstOutputData": "TrueResult",
+    "firstActionNode": "actionData_action_1"
    },
    "else": {
     "outputData": {
-     
+     "FailResult": {
+ "name": "FailResult",
+ "dataType": "string",
+ "returnType": "",
+ "value": "Incorrect",
+ "next": "",
+ "executedValue": "Incorrect",
+ "attribute": "",
+ "source": "",
+ "schemaId": ""
+}
     },
     "actionNode": {
      
     },
-    "firstOutputData": "",
+    "firstOutputData": "FailResult",
     "firstActionNode": ""
    }
   },
   "conditions": {
    "nodes": {
-    "c_9e3b0I": {
- "value": null,
+    "rhs_RC5KFd": {
+ "value": "2026-07-16",
  "sourceType": "",
- "name": "",
- "operator": "t",
- "dataType": "boolean",
- "nodeType": "condition",
- "attribute": "",
- "query": "",
- "parent": "c_vDUKkn",
- "children": null,
- "leftNode": [
-  "lhs_n5KRqj"
- ],
- "rightNode": [],
- "siblingIndex": 1,
- "returnType": ""
-},
-    "c_lpWUuw": {
- "value": null,
- "sourceType": "",
- "name": "",
- "operator": "and",
- "dataType": "",
- "nodeType": "group",
- "attribute": "",
- "query": "",
- "parent": "rule_01",
- "children": [
-  "c_vDUKkn"
- ],
- "leftNode": null,
- "rightNode": null,
- "siblingIndex": 2,
- "returnType": ""
-},
-    "c_vDUKkn": {
- "value": null,
- "sourceType": "",
- "name": "",
- "operator": "and",
- "dataType": "",
- "nodeType": "group",
- "attribute": "",
- "query": "",
- "parent": "c_lpWUuw",
- "children": [
-  "c_9e3b0I"
- ],
- "leftNode": null,
- "rightNode": null,
- "siblingIndex": 2,
- "returnType": ""
-},
-    "lhs_n5KRqj": {
- "value": null,
- "sourceType": "customInput",
  "name": "",
  "operator": "",
- "dataType": "boolean",
- "nodeType": "params",
- "attribute": "List",
+ "dataType": "date",
+ "nodeType": "constant",
+ "attribute": "",
  "query": "",
- "parent": "c_9e3b0I",
+ "parent": "rule_02",
  "children": null,
  "leftNode": null,
  "rightNode": null,
@@ -231,15 +154,14 @@
  "value": null,
  "sourceType": "",
  "name": "",
- "operator": "or",
+ "operator": "and",
  "dataType": "",
  "nodeType": "group",
  "attribute": "",
  "query": "",
  "parent": "",
  "children": [
-  "rule_02",
-  "c_lpWUuw"
+  "rule_02"
  ],
  "leftNode": null,
  "rightNode": null,
@@ -250,8 +172,8 @@
  "value": null,
  "sourceType": "",
  "name": "",
- "operator": "any",
- "dataType": "numeric",
+ "operator": "eq",
+ "dataType": "date",
  "nodeType": "condition",
  "attribute": "",
  "query": "",
@@ -260,7 +182,9 @@
  "leftNode": [
   "rule_03"
  ],
- "rightNode": [],
+ "rightNode": [
+  "rhs_RC5KFd"
+ ],
  "siblingIndex": 1,
  "returnType": ""
 },
@@ -269,9 +193,9 @@
  "sourceType": "customInput",
  "name": "",
  "operator": "",
- "dataType": "numeric",
+ "dataType": "date",
  "nodeType": "params",
- "attribute": "json.Body.userId",
+ "attribute": "Date",
  "query": "",
  "parent": "rule_02",
  "children": null,
@@ -283,14 +207,14 @@
    },
    "startNode": "rule_01"
   },
-  "firstCustomInput": "List",
+  "firstCustomInput": "Date",
   "firstRuleChain": "",
   "ruleSetPolicy": "",
   "description": "",
   "policy": "",
   "comment": "",
   "type": "simpleRule",
-  "dataSetId": "b36fea22-c50f-4c10-b055-0d2ecd433514",
+  "dataSetId": "",
   "ruleSet": [],
   "settings": {
    "startAt": "0001-01-01T00:00:00Z",
@@ -318,9 +242,48 @@
    "styles": null
   },
   "isDemo": false,
-  "warnings": [
-   "Dataset is attached in rule input but not used inside any condition or used only with Any operator."
-  ],
+  "warnings": [],
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-16T12:00:22.137753Z",
+   "updatedAt": "2026-07-17T11:15:14.274328Z",
+   "entityCommitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
+   "entityType": "rule",
+   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "entityVersion": "draft",
+   "entityNodeId": "ci-ListOFLists",
+   "dependencyType": "module_schema",
+   "dependencyId": "871d752a-5848-4830-9a73-6d634bf9d083",
+   "dependencyVersion": "live"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-16T12:00:22.14057Z",
+   "updatedAt": "2026-07-17T11:15:14.274328Z",
+   "entityCommitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
+   "entityType": "rule",
+   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_1",
+   "dependencyType": "rule",
+   "dependencyId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+   "dependencyVersion": "0.10"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-16T12:00:22.141705Z",
+   "updatedAt": "2026-07-17T11:15:14.274328Z",
+   "entityCommitId": "commit-e4fa8b6c-cb1d-4a67-ba6f-5b009d255557",
+   "entityType": "rule",
+   "entityId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "entityVersion": "draft",
+   "entityNodeId": "then-actionData_action_2",
+   "dependencyType": "workflow",
+   "dependencyId": "de61f8a0-8be2-4beb-a4be-eadcc8e8a5d3",
+   "dependencyVersion": "0.20"
+  }
+ ]
 }

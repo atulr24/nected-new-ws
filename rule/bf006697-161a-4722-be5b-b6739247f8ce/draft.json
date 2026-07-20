@@ -3,15 +3,15 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-07-16T10:51:28.344Z",
-  "updatedAt": "2026-07-20T07:02:58.806121Z",
+  "updatedAt": "2026-07-20T11:41:46.582223Z",
   "isDeleted": false,
-  "testedAt": "2026-07-17T12:27:33.627Z",
+  "testedAt": "2026-07-20T11:41:46.581Z",
   "publishedAt": "2026-07-17T12:24:01.93Z",
   "entityId": "bf006697-161a-4722-be5b-b6739247f8ce",
   "version": "draft",
   "name": "TestRule",
   "commitId": "commit-c9d5d0b3-4f2b-4209-9bd9-bb6727af5629",
-  "status": "draft",
+  "status": "tested",
   "lastVersion": "0.40",
   "isLive": false,
   "commitInfo": {
@@ -451,7 +451,7 @@
  "returnType": ""
 },
     "rhs_v3L0tp": {
- "value": "Atul",
+ "value": "Atul12",
  "sourceType": "",
  "name": "",
  "operator": "",
@@ -566,7 +566,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-07-17T12:27:25.903078Z",
-   "updatedAt": "2026-07-20T07:02:58.813846Z",
+   "updatedAt": "2026-07-20T11:41:37.849363Z",
    "entityCommitId": "commit-c9d5d0b3-4f2b-4209-9bd9-bb6727af5629",
    "entityType": "rule",
    "entityId": "bf006697-161a-4722-be5b-b6739247f8ce",
@@ -579,7 +579,7 @@
   {
    "isDeleted": false,
    "createdAt": "2026-07-17T12:25:59.688824Z",
-   "updatedAt": "2026-07-20T07:02:58.812461Z",
+   "updatedAt": "2026-07-20T11:41:37.848186Z",
    "entityCommitId": "commit-c9d5d0b3-4f2b-4209-9bd9-bb6727af5629",
    "entityType": "rule",
    "entityId": "bf006697-161a-4722-be5b-b6739247f8ce",

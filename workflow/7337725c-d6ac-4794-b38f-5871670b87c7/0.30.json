@@ -1,15 +1,16 @@
 {
  "entityType": "workflow",
+ "live": true,
  "data": {
   "createdAt": "2026-07-20T06:11:02.055Z",
-  "updatedAt": "2026-07-20T12:55:42.780573Z",
+  "updatedAt": "2026-07-20T12:55:42.777Z",
   "isDeleted": false,
   "testedAt": "2026-07-20T12:55:37.84Z",
   "publishedAt": "2026-07-20T12:55:42.772Z",
   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
   "version": "0.30",
   "name": "WF1",
-  "commitId": "commit-9aa4ddc5-f3a5-4f29-828d-3594d34cf9db",
+  "commitId": "commit-0395274a-aef0-47f4-a9e8-f9e7e5700858",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
@@ -881,5 +882,46 @@
   },
   "comment": "",
   "isDemo": false
- }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T07:04:37.320579Z",
+   "updatedAt": "2026-07-20T12:55:42.775326Z",
+   "entityCommitId": "commit-0395274a-aef0-47f4-a9e8-f9e7e5700858",
+   "entityType": "workflow",
+   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
+   "entityVersion": "0.30",
+   "entityNodeId": "n_6dOE7R",
+   "dependencyType": "rule",
+   "dependencyId": "093f0531-6b46-403a-9f5d-cdc3489724f1",
+   "dependencyVersion": "0.30"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T12:52:16.484943Z",
+   "updatedAt": "2026-07-20T12:55:42.775326Z",
+   "entityCommitId": "commit-0395274a-aef0-47f4-a9e8-f9e7e5700858",
+   "entityType": "workflow",
+   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
+   "entityVersion": "0.30",
+   "entityNodeId": "n_D5qiE0",
+   "dependencyType": "workflow",
+   "dependencyId": "db573c0c-d264-45e3-b9f8-a6bcae2c556d",
+   "dependencyVersion": "0.10"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T06:46:22.826674Z",
+   "updatedAt": "2026-07-20T12:55:42.775326Z",
+   "entityCommitId": "commit-0395274a-aef0-47f4-a9e8-f9e7e5700858",
+   "entityType": "workflow",
+   "entityId": "7337725c-d6ac-4794-b38f-5871670b87c7",
+   "entityVersion": "0.30",
+   "entityNodeId": "n_NqRWo4",
+   "dependencyType": "rule",
+   "dependencyId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+   "dependencyVersion": "0.20"
+  }
+ ]
 }

@@ -1,16 +1,17 @@
 {
  "entityType": "rule",
  "category": "decisionTable",
+ "live": true,
  "data": {
   "createdAt": "2026-07-15T07:09:00.215Z",
-  "updatedAt": "2026-07-20T11:58:06.699818Z",
+  "updatedAt": "2026-07-20T11:58:06.695Z",
   "isDeleted": false,
   "testedAt": "2026-07-20T11:58:00.871Z",
   "publishedAt": "2026-07-20T11:58:06.687Z",
   "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
   "version": "0.40",
   "name": "jsRule",
-  "commitId": "commit-12a0607c-be98-4e11-a25f-c855ce6c816b",
+  "commitId": "commit-b1052cda-fdbb-49a2-b3c3-bc93c3e5010c",
   "status": "published",
   "lastVersion": "draft",
   "isLive": true,
@@ -373,5 +374,33 @@
    "Dataset is attached in rule input but not used inside any condition or used only with Any operator."
   ],
   "schemaVersion": "0.1.1"
- }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T11:43:59.267527Z",
+   "updatedAt": "2026-07-20T11:58:06.691677Z",
+   "entityCommitId": "commit-b1052cda-fdbb-49a2-b3c3-bc93c3e5010c",
+   "entityType": "rule",
+   "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+   "entityVersion": "0.40",
+   "entityNodeId": "dataSet",
+   "dependencyType": "dataSet",
+   "dependencyId": "b36fea22-c50f-4c10-b055-0d2ecd433514",
+   "dependencyVersion": "0.20"
+  },
+  {
+   "isDeleted": false,
+   "createdAt": "2026-07-20T11:44:24.324471Z",
+   "updatedAt": "2026-07-20T11:58:06.691677Z",
+   "entityCommitId": "commit-b1052cda-fdbb-49a2-b3c3-bc93c3e5010c",
+   "entityType": "rule",
+   "entityId": "02b211b0-ff8c-467f-b530-b18a5c362ae3",
+   "entityVersion": "0.40",
+   "entityNodeId": "json",
+   "dependencyType": "connector",
+   "dependencyId": "53178faf-800a-45e0-bdc1-96a0a9f3a41d",
+   "dependencyVersion": "live"
+  }
+ ]
 }
